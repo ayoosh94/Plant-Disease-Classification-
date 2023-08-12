@@ -2,19 +2,19 @@
 
 ## Overview
 
-This project focuses on potato plant disease detection, aiming to address the economic losses faced by potato farmers due to various diseases. The two primary diseases of concern are early blight, caused by a fungus, and late blight, caused by a specific micro-organism. Early and accurate detection of these diseases can lead to appropriate treatment, potentially saving significant waste and economic losses.
+Potatoes rank as the 4th most essential staple food worldwide and are cultivated in a staggering 95 countries. However, it's disheartening to know that about 32% of potato crops are lost each year due to diseases and pests. There are various diseases afflict potatoes, such as common scabs, black dots, silver scurf, etc. However, our main focus revolves around two particularly severe diseases: early blight and late blight. 
 
 ## Solution
 
-To prevent economic losses, we have created an image classification model that can accurately recognize diseases in potato plants. The model can specifically identify early blight and late blight, allowing farmers to apply targeted treatments for each disease.
+We are building three models in order to solve this problem. These three are SVM, Random Forest Classifier, and Gradient Boosting Classifier. The final output is taken by stack ensembling these three models by training a logistic regression classifier.
 
 ## Project Objective
 
-The main objective of this project is to train a machine learning model using a dataset of labelled potato leaf images to accurately classify them into different disease categories. By leveraging techniques like data augmentation during training, we improve the model's performance and mitigate overfitting. Once trained, the model can be used for inference to classify unseen potato leaf images into their respective disease categories.
+The main objective of this project is to train a machine learning model using a dataset of labeled potato leaf images to accurately classify them into different disease categories. By leveraging techniques like data augmentation during training, we improve the model's performance and mitigate overfitting. Once trained, the model can be used for inference to classify unseen potato leaf images into their respective disease categories.
 
 ## Dataset
 
-The dataset used for training and validation is sourced from Kaggle. It consists of labelled images of potato leaves, with each image annotated to indicate the corresponding disease category. The dataset encompasses a variety of diseases that commonly affect potato leaves, such as late blight and early blight.
+The data set is taken from the Kaggle data sets. A dataset consisting of labeled images of potato leaves, where each image is annotated with the corresponding disease category. The dataset should cover a variety of diseases that commonly affect potato leaves, such as late blight and early blight
 
 Dataset Source: [Kaggle - Plant Village Dataset](https://www.kaggle.com/datasets/arjuntejaswi/plant-village)
 
